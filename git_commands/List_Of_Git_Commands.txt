@@ -1,0 +1,8 @@
+----------Git Commands-----------
+
+1. Cloning a repository from GITHUB into local machine = git clone <clone-url>
+2. Knowing the status of local git repo = git status
+3. Adding changes to working directory to staging area = git add <fileapath from current directory>
+4. Adding changes from staging area to local git repo = git commit -m "<commit message>"
+5. Pushing changes from local git repository to github repo = git push origin master
+6. Pulling changes from remote repo into local repo = git pull origin master
