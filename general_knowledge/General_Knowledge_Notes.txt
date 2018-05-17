@@ -1,0 +1,5 @@
+General computer related things you must know:
+-----------------------------------------------
+
+1. x64 and x86 refer to what bits of OS. What is the actual meaning of 32 bit and 64 bit OS?
+2. What are cookies? How are they useful? What are their disadvantages?
