@@ -2,3 +2,7 @@ Eclipse Notes:
 --------------
 
 1. Use Case: On creating a new class, by default, the braces are present at the end of the line. How to change the braces style to next line by default.
+
+> Window >> Preferences >> Java >> Code Style >> Formatter >> New >> Enter Profile Name and click OK >> Braces Tab >> Select value in all drop downs as "New Line" >> Apply >> OK >> Apply >> OK
+References: https://www.youtube.com/watch?v=4weJXtkTfq8
+
