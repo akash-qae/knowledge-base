@@ -1,0 +1,4 @@
+Eclipse Notes:
+--------------
+
+1. Use Case: On creating a new class, by default, the braces are present at the end of the line. How to change the braces style to next line by default.
