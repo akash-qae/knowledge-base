@@ -6,3 +6,4 @@
 4. Adding changes from staging area to local git repo = git commit -m "<commit message>"
 5. Pushing changes from local git repository to github repo = git push origin master
 6. Pulling changes from remote repo into local repo = git pull origin master
+7. To know what changes were made to a file = git diff (or git difftool if the difftool is configured)

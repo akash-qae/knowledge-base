@@ -6,3 +6,8 @@ Eclipse Notes:
 > Window >> Preferences >> Java >> Code Style >> Formatter >> New >> Enter Profile Name and click OK >> Braces Tab >> Select value in all drop downs as "New Line" >> Apply >> OK >> Apply >> OK
 References: https://www.youtube.com/watch?v=4weJXtkTfq8
 
+2. Use CRTL+SPACE after . for eclipse to auto suggest
+
+3. Type sysout and press CTRL+SPACE to automatically print System.out.println()
+
+
