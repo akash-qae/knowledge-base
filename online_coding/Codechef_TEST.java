@@ -2,6 +2,7 @@
  * Date: 05/17/2018
  * Problem Statement Link: https://www.codechef.com/problems/TEST
  * Status: Correct Answer, Execution Time: 0.05
+ * Difficulty Level: Easy
  */
 
 import java.io.BufferedReader;
