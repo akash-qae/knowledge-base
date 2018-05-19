@@ -10,4 +10,6 @@ References: https://www.youtube.com/watch?v=4weJXtkTfq8
 
 3. Type sysout and press CTRL+SPACE to automatically print System.out.println()
 
+4. Code alignment: CTRL+I
+
 

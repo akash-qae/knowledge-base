@@ -1,12 +1,14 @@
 Things to remember:
 ----------------------
 
-1. Do not use public with the class name. On code submission compilation error occurs. 
+1. Do not use public with the class name if using some custom class name. On code submission compilation error occurs. 
 
 Main.java:10: error: class Codechef_TEST is public, should be declared in a file named Codechef_TEST.java
 public class Codechef_TEST 
        ^
 1 error
+
+However, you can use public with the class name if you name the class as "Main"
 
 ----------------------
 

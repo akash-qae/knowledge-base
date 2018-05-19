@@ -1,0 +1,4 @@
+Shorcuts (CHROME):
+--------------------
+
+1. Restore last opened tabs: CTRL+SHIFT+T

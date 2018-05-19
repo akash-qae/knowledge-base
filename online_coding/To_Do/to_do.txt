@@ -1,0 +1,3 @@
+1. Add method for working woth big inputs
+2. Add method for rounding numbers - Also add snapshot from copy to your repo
+
