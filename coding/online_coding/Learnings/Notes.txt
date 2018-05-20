@@ -1,0 +1,31 @@
+Things to remember:
+----------------------
+
+1. 
+Do not use public with the class name if using some custom class name. On code submission compilation error occurs. 
+
+Main.java:10: error: class Codechef_TEST is public, should be declared in a file named Codechef_TEST.java
+public class Codechef_TEST 
+       ^
+1 error
+
+However, you can use public with the class name if you name the class as "Main"
+
+----------------------
+
+2.
+If the input format accepts all the inputs in one line then you cannot use in.readLine for taking each input. Doing so will throw an exception which you will not be able to find out.
+So, if the input format accepts all the input in one line, you should always try to use split().
+
+Reference: https://discuss.codechef.com/questions/127046/nzec-in-hs08test
+
+----------------------
+
+3. 
+There are 2 ways to submit your solution on codechef:
+	a. All code goes in the main() method. [Reference: https://www.codechef.com/viewsolution/18604910]
+	b. main() method just acts as a driver. Logic can be written in a seperate method. [Reference: https://www.codechef.com/viewsolution/18604984]
+	
+----------------------
+
+

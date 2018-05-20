@@ -1,0 +1,17 @@
+public static String roundToNDecimalPlaces(double num, int N, boolean showTrailingZeros)
+{
+	//# means dont show 0s if not necessary, 0 means show 0s even if not necessary
+	String format="#.";
+		
+	String appendChar="#";
+	if(showTrailingZeros)
+		appendChar="0";
+		
+	for(int i=0; i<N; i++)
+		format = format+appendChar; //this forms a string like #.## or #.00 depending upon whether or not we want to show trailing 0s after the decimal point
+			
+	java.text.DecimalFormat df = new java.text.DecimalFormat(format);
+	df.setRoundingMode(java.math.RoundingMode.HALF_UP);
+		
+	return df.format(num);
+}
