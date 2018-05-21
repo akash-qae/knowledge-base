@@ -1,7 +1,8 @@
 /*
  * Date: 05/20/2018
  * Problem Statement Link: https://www.codechef.com/problems/HS08TEST
- * Status: -
+ * Status: AC
+ * My Solution: https://www.codechef.com/viewsolution/18604984
  * Difficulty Level: Beginner
  */
 
@@ -25,9 +26,14 @@ public class Codechef_HS08TEST
 		int withdraw = Integer.parseInt(input[0]);
 		double balance = Double.parseDouble(input[1]);
 
+		System.out.println(df.format(getAccountBalance(withdraw, balance, transactionCharges)));
+	}
+	
+	public static double getAccountBalance(int withdraw, double balance, double transactionCharges)
+	{
 		if(withdraw%5==0 && withdraw+transactionCharges<=balance)
-			System.out.println(df.format(balance-(withdraw+transactionCharges)));
+			return balance-(withdraw+transactionCharges);
 		else
-			System.out.println(df.format(balance));
-	}	
+			return balance;
+	}
 }

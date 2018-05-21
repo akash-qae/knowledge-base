@@ -28,4 +28,13 @@ There are 2 ways to submit your solution on codechef:
 	
 ----------------------
 
+4. Range of int and long primitive types in powers of 10
+
+int = -2,147,483,648 to 2,147,483, 647 = 2.14 * 10^9 = 10^9
+long = -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 = 9.22 * 10^18 = 10^18
+
+Thus, int: 10^9 and long: 10^18
+
+----------------------
+
 
