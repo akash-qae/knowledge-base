@@ -1,0 +1,17 @@
+Learnigs from geeks coding:
+----------------------------
+
+1. To print all the elements of an array, we can use:
+
+System.out.println(Arrays.toString(array));  >> for single dimensional array
+System.out.println(Arrays.deepToString(array));  >> for multi dimensional array
+
+Reference: https://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array
+
+----------------------------
+
+2. Space complexity of a method is considered O(1) and not O(n) in case the method does not use any additional array apart from the original array.
+
+Reference: https://www.geeksforgeeks.org/array-rotation/
+
+----------------------------
