@@ -56,6 +56,43 @@ public class Array_LeftRotation
 		return a;
 	}
 	
+	/*
+	 * Time Complexity = O(n)
+	 * Space Complexity = O(1)
+	 * Snap shot of how the solution works: https://www.screencast.com/t/9gUgGVYr1qr
+	 * My approach which works only when gcd is not equal to 1: https://www.screencast.com/t/Twur5DdYgNzI
+	 * Note: Dry run with 5 elements and d=2 to clear approach for GCD=1. Dry run with 12 elements and d=3 to clear approach when GCD is not equal to 1. 
+	 */
+	public static int[] leftRotate_DivideAndMove(int a[], int d)
+	{
+		int temp,j,k;
+		for (int i = 0; i < gcd(d, a.length); i++) 
+        {
+            temp = a[i];
+            j = i;
+            while (true) 
+            {
+                k = j + d;
+                if (k >= a.length) 
+                    k = k - a.length;
+                if (k == i) 
+                    break;
+                a[j] = a[k];
+                j = k;
+            }
+            a[j] = temp;
+        }
+		return a;
+	}
+	
+	public static int gcd(int a, int b) 
+    {
+        if (b == 0)
+            return a;
+        else
+            return gcd(b, a % b);
+    }
+	
 	public static void main(String args[])
 	{
 		int testArray[] = {1,2,3,4,5};
@@ -63,6 +100,7 @@ public class Array_LeftRotation
 		
 		//Do not print the output of all the methods together. In doing so, the output of first becomes the input to the second.
 		//System.out.println(Arrays.toString(leftRotate_UsingTempArray(testArray,noOfPlacesToRotate)));
-		System.out.println(Arrays.toString(leftRotate_OneByOne(testArray,noOfPlacesToRotate)));
+		//System.out.println(Arrays.toString(leftRotate_OneByOne(testArray,noOfPlacesToRotate)));
+		System.out.println(Arrays.toString(leftRotate_DivideAndMove(testArray,noOfPlacesToRotate)));
 	}
 }
